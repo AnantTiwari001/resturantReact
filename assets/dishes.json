@@ -1,0 +1,557 @@
+[
+    {
+        "uid":"01",
+        "name":"Butter Paneer",
+        "desc":"Freshly made Butter Paneer with spicy Indian spices",
+        "ingredients":["Paneer", "cardamom", "spices", "vegetable oil", "saffron"],
+        "rating":3,
+        "price":250,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic",
+            "time":"1 day ago"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal",
+            "time":"a week ago"
+        }
+        ]
+    },
+    {
+        "uid":"02",
+        "name":"Chicken Biryani",
+        "desc":"Aromatic chicken biryani cooked with fragrant spices and basmati rice",
+        "ingredients":["Chicken", "basmati rice", "spices", "yogurt", "onions"],
+        "rating":1,
+        "price":350,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic",
+            "time":"1 day ago"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal",
+            "time":"a week ago"
+        }
+    ]
+    },
+    {
+        "uid":"03",
+        "name":"Masala Dosa",
+        "desc":"Crispy South Indian dosa stuffed with spiced potato filling",
+        "ingredients":["Rice batter", "potatoes", "spices", "onions", "chutney"],
+        "rating":4,
+        "price":150,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic",
+            "time":"1 day ago"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal",
+            "time":"a week ago"
+        }
+    ]
+    },
+    {
+        "uid":"04",
+        "name":"Paneer Tikka",
+        "desc":"Marinated and grilled paneer cubes with spices",
+        "ingredients":["Paneer", "yogurt", "spices", "capsicum", "onions"],
+        "rating":4,
+        "price":300,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic",
+            "time":"1 day ago"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal",
+            "time":"a week ago"
+        }
+    ]
+    },
+    {
+        "uid":"05",
+        "name":"Dal Makhani",
+        "desc":"Creamy lentil dish cooked with butter and aromatic spices",
+        "ingredients":["Black lentils", "butter", "cream", "spices", "tomatoes"],
+        "rating":5,
+        "price":200,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic",
+            "time":"25 min ago"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal",
+            "time":"a week ago"
+        }
+    ]
+    },
+    {
+        "uid":"06",
+        "name":"Tandoori Chicken",
+        "desc":"Marinated chicken cooked in a tandoor (clay oven)",
+        "ingredients":["Chicken", "yogurt", "spices", "lemon", "ginger-garlic"],
+        "rating":4,
+        "price":320,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"07",
+        "name":"Aloo Paratha",
+        "desc":"Whole wheat flatbread stuffed with spiced potato filling",
+        "ingredients":["Whole wheat flour", "potatoes", "spices", "butter", "curd"],
+        "rating":4,
+        "price":120,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"08",
+        "name":"Rogan Josh",
+        "desc":"Slow-cooked lamb curry with rich and aromatic gravy",
+        "ingredients":["Lamb", "spices", "yogurt", "onions", "tomatoes"],
+        "rating":4,
+        "price":380,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"09",
+        "name":"Chole Bhature",
+        "desc":"Deep-fried bread (bhature) served with spicy chickpea curry (chole)",
+        "ingredients":["Chickpeas", "flour", "spices", "onions", "tomatoes"],
+        "rating":4,
+        "price":180,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"10",
+        "name":"Samosa",
+        "desc":"Crispy pastry filled with spiced potato and pea mixture",
+        "ingredients":["Potatoes", "peas", "spices", "flour", "deep-frying oil"],
+        "rating":3,
+        "price":50,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"11",
+        "name":"Fish Curry",
+        "desc":"Fish cooked in a spicy and tangy coconut-based curry",
+        "ingredients":["Fish", "coconut milk", "spices", "tamarind", "curry leaves"],
+        "rating":4,
+        "price":320,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"12",
+        "name":"Pani Puri",
+        "desc":"Hollow crispy puris filled with spicy tangy water and potato mixture",
+        "ingredients":["Puris", "potatoes", "spiced water", "tamarind chutney", "sev"],
+        "rating":3,
+        "price":60,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"13",
+        "name":"Mutton Korma",
+        "desc":"Mutton cooked in a rich, creamy, and nutty gravy",
+        "ingredients":["Mutton", "spices", "nuts", "yogurt", "onions"],
+        "rating":4,
+        "price":400,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"14",
+        "name":"Aloo Gobi",
+        "desc":"Cauliflower and potatoes cooked with aromatic spices",
+        "ingredients":["Cauliflower", "potatoes", "spices", "tomatoes", "coriander"],
+        "rating":3,
+        "price":180,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"15",
+        "name":"Rasgulla",
+        "desc":"Spongy and sweet cottage cheese balls soaked in sugar syrup",
+        "ingredients":["Paneer", "sugar", "cardamom", "rose water", "saffron"],
+        "rating":5,
+        "price":80,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"16",
+        "name":"Hyderabadi Biryani",
+        "desc":"Fragrant basmati rice cooked with marinated meat and aromatic spices",
+        "ingredients":["Meat", "basmati rice", "spices", "yogurt", "mint leaves"],
+        "rating":5,
+        "price":380,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"17",
+        "name":"Malai Kofta",
+        "desc":"Deep-fried paneer and potato balls served in a creamy tomato-based gravy",
+        "ingredients":["Paneer", "potatoes", "cream", "spices", "tomatoes"],
+        "rating":4,
+        "price":280,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"18",
+        "name":"Chicken Tikka Masala",
+        "desc":"Grilled chicken tikka cooked in a spiced tomato-based gravy",
+        "ingredients":["Chicken", "spices", "tomatoes", "cream", "onions"],
+        "rating":2,
+        "price":340,
+        "type":"non-veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"19",
+        "name":"Gulab Jamun",
+        "desc":"Deep-fried milk dumplings soaked in sugar syrup",
+        "ingredients":["Milk solids", "flour", "sugar", "cardamom", "rose water"],
+        "rating":4,
+        "price":90,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    },
+    {
+        "uid":"20",
+        "name":"Palak Paneer",
+        "desc":"Paneer cubes cooked in a creamy spinach gravy",
+        "ingredients":["Paneer", "spinach", "cream", "spices", "onions"],
+        "rating":4,
+        "price":260,
+        "type":"veg",
+        "uri":"https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paratha-recipe.jpg",
+        "review":[
+            {
+            "name":"Ram Kishor",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is really good, it's jucy and fresh. Remind me of home food"
+        },
+            {
+            "name":"Anant Tiwari",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food is taste good to me but was serve late. Although that do make sense in such traffic"
+        },
+            {
+            "name":"Ravi Shankar",
+            "profilePic": "https://cdn.vectorstock.com/i/preview-1x/70/84/default-avatar-profile-icon-symbol-for-website-vector-46547084.jpg",
+            "review":"The Food was specially good with the rice I ordered in combo. The pieces were sweet and tangy. That's what I call a good meal"
+        }
+    ]
+    }
+]

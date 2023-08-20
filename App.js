@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import FirstPage from './Pages/FirstPage';
-import { LinearGradient } from 'expo-linear-gradient';
+import SecondPage from './Pages/SecondPage';
 
 export default function App() {
   return (
@@ -19,6 +19,7 @@ const MainNavigator = () => {
   return (
     <MainStack.Navigator screenOptions={{ headerShown: false }} >
       <MainStack.Screen name='first-page' component={FirstPage} />
+      <MainStack.Screen name='second-page' component={SecondPage} />
     </MainStack.Navigator>
   )
 }
