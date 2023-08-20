@@ -1,49 +1,13 @@
 import {
     View,
     Text,
-    Touchable,
-    Image,
     StyleSheet,
-    TextInput,
     ScrollView,
-    Button,
     TouchableOpacity
   } from "react-native";
   import TypeMsg from "./TypeMsg";
-  import { useState } from "react";
   
-  const SearchBar = ({suggestions, searchText, setFunc}) => {
-    // const [searchText, setSearchText] = useState(null);
-    const trendingNrecent = ["anime0", "anime1", "anime2", "anime3", "anime4"];
-    const allAnime = [
-      "Attack on Titan",
-      "Bleach",
-      "Cowboy Bebop",
-      "Death Note",
-      "Elfen Lied",
-      "Fullmetal Alchemist",
-      "Gintama",
-      "Hunter x Hunter",
-      "Inuyasha",
-      "JoJo's Bizarre Adventure",
-      "K-On!",
-      "Love Live! School Idol Project",
-      "My Hero Academia",
-      "Naruto",
-      "One Piece",
-      "Psycho-Pass",
-      "Quanzhi Gaoshou",
-      "Re:Zero − Starting Life in Another World",
-      "Sword Art Online",
-      "Tokyo Ghoul",
-      "Usagi Drop",
-      "Violet Evergarden",
-      "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!",
-      "xxxHOLiC",
-      "Your Lie in April",
-      "Zankyou no Terror",
-    ];
-  
+  const SearchBar = ({suggestions, searchText, setFunc, submitFunc}) => {  
     return (
       <View>
         <View style={styles.searchContainer}>
@@ -52,6 +16,7 @@ import {
             setFunction={(text) => setFunc(text)}
             placeholderText={"Seach your favorite food"}
             icon={"search"}
+            submitFunc={submitFunc}
           />
         </View>
         <View style={{borderRadius:13, height:30}} >
@@ -62,7 +27,7 @@ import {
           >
             {suggestions.map((item, index) => (
                   <View style={{marginHorizontal:3}} key={index}>
-                    <TouchableOpacity style={styles.searchItem} >
+                    <TouchableOpacity style={styles.searchItem} onPress={()=>setFunc(item)} >
                       <Text>{item}</Text>
                     </TouchableOpacity>
                   </View>

@@ -2,7 +2,6 @@ import { View, StyleSheet, Text, TouchableOpacity, ScrollView, Image, } from "re
 import { useRoute, useNavigation } from '@react-navigation/native'
 import { useEffect, useState } from "react";
 import { Ionicons, AntDesign } from '@expo/vector-icons';
-import { LinearGradient } from "expo-linear-gradient";
 import MenuItem from "../Components/MenuItem";
 
 
@@ -11,8 +10,14 @@ const SecondPage = () => {
     const navigation = useNavigation()
     const route = useRoute();
     const [quantity, setQuantity] = useState(1);
+    const dishesJson = require('../assets/dishes.json')
+    const [dishes, setDishes] = useState(dishesJson);
+    const submitFunc = async(dishName) => {
+        let newValue= dishesJson.filter(item=>item.name.toLowerCase().includes(dishName.toLowerCase())|| item.desc.toLowerCase().includes(dishName.toLowerCase()))
+        setDishes(newValue);
+    }
     useEffect(() => {
-        console.log(route.params)
+        submitFunc(route.params.ingredients[0]);
     }, [])
     return (
         <ScrollView style={{ flex: 1 }} >
@@ -74,7 +79,9 @@ const SecondPage = () => {
             </View>
             <View style={{backgroundColor:'white', paddingHorizontal:15}} >
                 <Text style={{fontSize:18, color:'tomato'}}>Similar Product</Text>
-                {/* <MenuItem /> */}
+                {dishes.map((item, index) => (
+                    <MenuItem key={index} dish={item} />
+                ))}
             </View>
             <TouchableOpacity style={styles.backBtn} onPress={() => navigation.goBack()} >
                 <Ionicons name="chevron-back" size={40} color="blue" />

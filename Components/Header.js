@@ -2,16 +2,13 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import SearchBar from './SearchBar';
 import { useEffect, useState } from 'react';
 
-const Header = ({ filterFunc, ratingFilterFunc }) => {
+const Header = ({ filterFunc, ratingFilterFunc, searchText, searchFunc, submitFunc, suggestions }) => {
     const vegList = ['all', 'veg', 'non-veg']
-    const trendingNrecent = ["anime0", "anime1", "anime2", "anime3", "anime4", "fifth one", "sixth one"];
-    const [inputText, setInputText] = useState();
     const [filterVisible, setFilterVisible] = useState(false);
     const [vegOption, setVegOption] = useState(0);
     const [rating, setRating] = useState(1)
 
     useEffect(() => {
-        console.log(vegOption)
         filterFunc(vegList[vegOption])
     }, [vegOption])
     useEffect(()=>{
@@ -21,7 +18,7 @@ const Header = ({ filterFunc, ratingFilterFunc }) => {
         <View style={styles.container}>
             <View style={{ alignSelf: 'center' }} >
                 <Text style={styles.title} >Your Food Place</Text>
-                <SearchBar suggestions={trendingNrecent} searchText={inputText} setFunc={setInputText} />
+                <SearchBar suggestions={suggestions} searchText={searchText} setFunc={searchFunc} submitFunc={submitFunc} />
             </View>
             <View>
                 <View style={{ justifyContent: 'center', alignItems: 'center' }}>
@@ -52,8 +49,6 @@ const Header = ({ filterFunc, ratingFilterFunc }) => {
 
 const styles = StyleSheet.create({
     container: {
-        // height: 20,
-        // alignItems: 'center',
         paddingTop: 50,
         backgroundColor: 'rgba(100,10,250,0.6)',
         position: 'relative'
